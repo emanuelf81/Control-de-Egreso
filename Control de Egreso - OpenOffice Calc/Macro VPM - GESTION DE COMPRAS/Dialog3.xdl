@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="4" dlg:id="Dialog3" dlg:left="80" dlg:top="5" dlg:width="200" dlg:height="85" dlg:closeable="true" dlg:moveable="true" dlg:title="Cargar Hoja de Ruta">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:font-height="10"/>
+  <dlg:style dlg:style-id="1" dlg:background-color="0xeeeeee" dlg:font-height="10"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xffffff" dlg:font-height="11"/>
+  <dlg:style dlg:style-id="3" dlg:font-height="11"/>
+  <dlg:style dlg:style-id="4" dlg:background-color="0xeeeeee"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:button dlg:style-id="0" dlg:id="CommandButton1" dlg:tab-index="1" dlg:left="26" dlg:top="56" dlg:width="55" dlg:height="15" dlg:default="true" dlg:value="Siguiente" dlg:button-type="ok"/>
+  <dlg:button dlg:style-id="0" dlg:id="CommandButton2" dlg:tab-index="2" dlg:left="118" dlg:top="56" dlg:width="55" dlg:height="15" dlg:value="Cancelar" dlg:button-type="cancel"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label1" dlg:tab-index="3" dlg:left="13" dlg:top="24" dlg:width="60" dlg:height="10" dlg:page="2" dlg:value="Id.Tarea:" dlg:align="right"/>
+  <dlg:textfield dlg:style-id="2" dlg:id="TextField1" dlg:tab-index="0" dlg:left="78" dlg:top="22" dlg:width="30" dlg:height="14" dlg:page="2" dlg:tabstop="true" dlg:maxlength="10"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label2" dlg:tab-index="4" dlg:left="13" dlg:top="33" dlg:width="60" dlg:height="10" dlg:page="1" dlg:value="Realizó:" dlg:align="right"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label3" dlg:tab-index="5" dlg:left="6" dlg:top="11" dlg:width="67" dlg:height="10" dlg:page="1" dlg:value="Fecha de realización:" dlg:align="right"/>
+  <dlg:datefield dlg:style-id="3" dlg:id="DateField1" dlg:tab-index="6" dlg:left="78" dlg:top="8" dlg:width="42" dlg:height="14" dlg:page="1" dlg:date-format="system_short_YYYY"/>
+  <dlg:combobox dlg:style-id="3" dlg:id="lstCBox2" dlg:tab-index="7" dlg:left="78" dlg:top="30" dlg:width="70" dlg:height="14" dlg:page="1" dlg:spin="true" dlg:maxlength="50"/>
+ </dlg:bulletinboard>
+</dlg:window>

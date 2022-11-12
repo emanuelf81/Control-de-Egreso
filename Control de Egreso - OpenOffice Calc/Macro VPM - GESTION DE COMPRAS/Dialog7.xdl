@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="3" dlg:id="Dialog7" dlg:left="230" dlg:top="73" dlg:width="200" dlg:height="85" dlg:closeable="true" dlg:moveable="true" dlg:title="Ingrese el Nro. de Id. de Tarea">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:background-color="0xffffff" dlg:font-height="11"/>
+  <dlg:style dlg:style-id="1" dlg:font-height="10"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xeeeeee" dlg:font-height="10"/>
+  <dlg:style dlg:style-id="3" dlg:background-color="0xeeeeee"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:textfield dlg:style-id="0" dlg:id="TextField1" dlg:tab-index="0" dlg:left="84" dlg:top="20" dlg:width="30" dlg:height="14" dlg:tabstop="true" dlg:maxlength="10"/>
+  <dlg:button dlg:style-id="1" dlg:id="CommandButton1" dlg:tab-index="1" dlg:left="28" dlg:top="59" dlg:width="55" dlg:height="15" dlg:default="true" dlg:value="Siguiente" dlg:button-type="ok"/>
+  <dlg:button dlg:style-id="1" dlg:id="CommandButton2" dlg:tab-index="2" dlg:left="120" dlg:top="59" dlg:width="55" dlg:height="15" dlg:value="Cancelar" dlg:button-type="cancel"/>
+  <dlg:text dlg:style-id="2" dlg:id="Label1" dlg:tab-index="3" dlg:left="19" dlg:top="22" dlg:width="60" dlg:height="10" dlg:value="Id.Tarea:" dlg:align="right"/>
+ </dlg:bulletinboard>
+</dlg:window>

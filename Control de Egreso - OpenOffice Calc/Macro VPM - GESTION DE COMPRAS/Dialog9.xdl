@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="5" dlg:id="Dialog9" dlg:left="83" dlg:top="18" dlg:width="429" dlg:height="137" dlg:closeable="true" dlg:moveable="true" dlg:title="Buscar">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:background-color="0xffffff" dlg:font-height="11"/>
+  <dlg:style dlg:style-id="1" dlg:background-color="0xeeeeee" dlg:font-height="10"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xeeeeee" dlg:font-height="11" dlg:font-weight="100"/>
+  <dlg:style dlg:style-id="3" dlg:font-height="11"/>
+  <dlg:style dlg:style-id="4" dlg:font-height="10"/>
+  <dlg:style dlg:style-id="5" dlg:background-color="0xeeeeee"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:textfield dlg:style-id="0" dlg:id="TextField1" dlg:tab-index="0" dlg:left="67" dlg:top="7" dlg:width="42" dlg:height="14" dlg:tabstop="true" dlg:maxlength="6"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label1" dlg:tab-index="17" dlg:left="5" dlg:top="10" dlg:width="60" dlg:height="10" dlg:value="Nro. Cliente:" dlg:align="right"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label2" dlg:tab-index="18" dlg:left="5" dlg:top="28" dlg:width="60" dlg:height="10" dlg:value="Cliente/Destinatario:" dlg:align="right"/>
+  <dlg:titledbox dlg:style-id="1" dlg:id="FrameControl1" dlg:tab-index="19" dlg:left="300" dlg:top="9" dlg:width="60" dlg:height="105">
+   <dlg:title dlg:value="Tarea"/>
+  </dlg:titledbox>
+  <dlg:titledbox dlg:style-id="1" dlg:id="FrameControl2" dlg:tab-index="20" dlg:left="234" dlg:top="9" dlg:width="60" dlg:height="105">
+   <dlg:title dlg:value="Zona"/>
+  </dlg:titledbox>
+  <dlg:titledbox dlg:style-id="1" dlg:id="FrameControl3" dlg:tab-index="21" dlg:left="366" dlg:top="9" dlg:width="60" dlg:height="105">
+   <dlg:title dlg:value="Estado"/>
+  </dlg:titledbox>
+  <dlg:text dlg:style-id="1" dlg:id="Label3" dlg:tab-index="22" dlg:disabled="true" dlg:left="4" dlg:top="49" dlg:width="60" dlg:height="10" dlg:value="Asignado:" dlg:align="right"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox12" dlg:tab-index="16" dlg:left="371" dlg:top="60" dlg:width="50" dlg:height="10" dlg:value="Finalizado" dlg:checked="false"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox11" dlg:tab-index="15" dlg:disabled="true" dlg:left="371" dlg:top="41" dlg:width="50" dlg:height="10" dlg:value="En Curso" dlg:checked="true"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox10" dlg:tab-index="14" dlg:left="371" dlg:top="22" dlg:width="50" dlg:height="10" dlg:value="Pendiente" dlg:checked="true"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox1" dlg:tab-index="5" dlg:left="239" dlg:top="20" dlg:width="50" dlg:height="10" dlg:value="CBAN" dlg:checked="true"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox2" dlg:tab-index="6" dlg:left="239" dlg:top="39" dlg:width="50" dlg:height="10" dlg:value="CBAC" dlg:checked="true"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox3" dlg:tab-index="7" dlg:left="239" dlg:top="58" dlg:width="50" dlg:height="10" dlg:value="CBAS" dlg:checked="true"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox4" dlg:tab-index="8" dlg:left="239" dlg:top="78" dlg:width="50" dlg:height="10" dlg:value="INT" dlg:checked="true"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox5" dlg:tab-index="9" dlg:disabled="true" dlg:left="305" dlg:top="22" dlg:width="50" dlg:height="10" dlg:value="Entregar" dlg:checked="true"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox6" dlg:tab-index="10" dlg:left="305" dlg:top="40" dlg:width="50" dlg:height="10" dlg:value="Cobrar" dlg:checked="true"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox7" dlg:tab-index="11" dlg:left="305" dlg:top="59" dlg:width="50" dlg:height="10" dlg:value="Documentos" dlg:checked="true"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox8" dlg:tab-index="12" dlg:left="305" dlg:top="78" dlg:width="50" dlg:height="10" dlg:value="Otros" dlg:checked="true"/>
+  <dlg:checkbox dlg:style-id="2" dlg:id="CheckBox9" dlg:tab-index="13" dlg:disabled="true" dlg:left="305" dlg:top="98" dlg:width="50" dlg:height="10" dlg:value="Visita" dlg:checked="true"/>
+  <dlg:combobox dlg:style-id="3" dlg:id="lstCBox2" dlg:tab-index="2" dlg:disabled="true" dlg:left="67" dlg:top="45" dlg:width="70" dlg:height="14" dlg:spin="true" dlg:maxlength="50"/>
+  <dlg:combobox dlg:style-id="3" dlg:id="lstCBox1" dlg:tab-index="1" dlg:left="67" dlg:top="26" dlg:width="160" dlg:height="14" dlg:spin="true" dlg:maxlength="80"/>
+  <dlg:button dlg:style-id="4" dlg:id="CommandButton1" dlg:tab-index="3" dlg:left="45" dlg:top="112" dlg:width="55" dlg:height="15" dlg:default="true" dlg:value="Buscar" dlg:button-type="ok"/>
+  <dlg:button dlg:style-id="4" dlg:id="CommandButton2" dlg:tab-index="4" dlg:left="137" dlg:top="112" dlg:width="55" dlg:height="15" dlg:value="Cancelar" dlg:button-type="cancel"/>
+  <dlg:textfield dlg:style-id="0" dlg:id="TextField2" dlg:tab-index="23" dlg:left="67" dlg:top="65" dlg:width="160" dlg:height="14"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label4" dlg:tab-index="24" dlg:left="4" dlg:top="69" dlg:width="60" dlg:height="10" dlg:value="Observaciones:" dlg:align="right"/>
+  <dlg:textfield dlg:style-id="0" dlg:id="TextField3" dlg:tab-index="25" dlg:left="67" dlg:top="85" dlg:width="160" dlg:height="14"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label5" dlg:tab-index="26" dlg:left="4" dlg:top="90" dlg:width="60" dlg:height="10" dlg:value="Otros:" dlg:align="right"/>
+ </dlg:bulletinboard>
+</dlg:window>

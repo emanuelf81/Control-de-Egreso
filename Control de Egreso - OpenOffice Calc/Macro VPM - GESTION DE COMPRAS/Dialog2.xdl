@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="6" dlg:id="Dialog2" dlg:left="80" dlg:top="5" dlg:width="267" dlg:height="109" dlg:closeable="true" dlg:moveable="true" dlg:title="Buscar Cliente">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:background-color="0xffffff" dlg:font-height="11"/>
+  <dlg:style dlg:style-id="1" dlg:background-color="0xeeeeee" dlg:font-height="10"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xeeeeee" dlg:border="none" dlg:font-height="11"/>
+  <dlg:style dlg:style-id="3" dlg:font-height="10"/>
+  <dlg:style dlg:style-id="4" dlg:font-height="11"/>
+  <dlg:style dlg:style-id="5" dlg:background-color="0xeeeeee" dlg:text-color="0xff3333" dlg:font-height="9"/>
+  <dlg:style dlg:style-id="6" dlg:background-color="0xeeeeee"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:textfield dlg:style-id="0" dlg:id="TextField1" dlg:tab-index="0" dlg:left="72" dlg:top="9" dlg:width="42" dlg:height="14" dlg:tabstop="true" dlg:maxlength="6"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label1" dlg:tab-index="4" dlg:left="199" dlg:top="10" dlg:width="33" dlg:height="10" dlg:value="Id.Tarea:" dlg:align="right"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label2" dlg:tab-index="5" dlg:left="8" dlg:top="11" dlg:width="60" dlg:height="10" dlg:value="Nro. Cliente:" dlg:align="right"/>
+  <dlg:textfield dlg:style-id="2" dlg:id="TextField2" dlg:tab-index="6" dlg:left="233" dlg:top="7" dlg:width="30" dlg:height="14" dlg:tabstop="false" dlg:maxlength="10" dlg:readonly="true"/>
+  <dlg:button dlg:style-id="3" dlg:id="CommandButton1" dlg:tab-index="2" dlg:left="60" dlg:top="83" dlg:width="55" dlg:height="15" dlg:default="true" dlg:value="Siguiente" dlg:button-type="ok"/>
+  <dlg:button dlg:style-id="3" dlg:id="CommandButton2" dlg:tab-index="3" dlg:left="152" dlg:top="83" dlg:width="55" dlg:height="15" dlg:value="Cancelar" dlg:button-type="cancel"/>
+  <dlg:text dlg:style-id="1" dlg:id="Label3" dlg:tab-index="7" dlg:left="7" dlg:top="58" dlg:width="60" dlg:height="10" dlg:value="Cliente/Destinatario:" dlg:align="right"/>
+  <dlg:combobox dlg:style-id="4" dlg:id="lstCBox1" dlg:tab-index="1" dlg:left="72" dlg:top="56" dlg:width="186" dlg:height="14" dlg:spin="true" dlg:maxlength="80"/>
+  <dlg:text dlg:style-id="5" dlg:id="Label4" dlg:tab-index="8" dlg:left="73" dlg:top="26" dlg:width="159" dlg:height="28" dlg:value="Si el Cliente no se encuentra registrado en la base de datos, ingresar  0  (cero) en Nro. Cliente y escriba el nombre en Cliente/Destinatario." dlg:multiline="true"/>
+ </dlg:bulletinboard>
+</dlg:window>

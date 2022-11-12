@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="3" dlg:id="Dialog6" dlg:left="107" dlg:top="34" dlg:width="341" dlg:height="209" dlg:closeable="true" dlg:moveable="true" dlg:title="Unificar PENDIENTES duplicados">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:font-height="11"/>
+  <dlg:style dlg:style-id="1" dlg:font-height="10"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xeeeeee" dlg:font-name="Webdings" dlg:font-height="40" dlg:font-stylename="Normal" dlg:font-family="roman" dlg:font-charset="symbol"/>
+  <dlg:style dlg:style-id="3" dlg:background-color="0xeeeeee"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:textfield dlg:style-id="0" dlg:id="TextField1" dlg:tab-index="0" dlg:left="8" dlg:top="12" dlg:width="150" dlg:height="146" dlg:multiline="true"/>
+  <dlg:textfield dlg:style-id="0" dlg:id="TextField2" dlg:tab-index="1" dlg:left="184" dlg:top="12" dlg:width="150" dlg:height="146" dlg:multiline="true"/>
+  <dlg:button dlg:style-id="1" dlg:id="CommandButton1" dlg:tab-index="2" dlg:left="98" dlg:top="175" dlg:width="55" dlg:height="19" dlg:default="true" dlg:value="Modificar" dlg:button-type="ok"/>
+  <dlg:button dlg:style-id="1" dlg:id="CommandButton2" dlg:tab-index="3" dlg:left="190" dlg:top="175" dlg:width="55" dlg:height="19" dlg:value="Siguiente" dlg:button-type="cancel"/>
+  <dlg:text dlg:style-id="2" dlg:id="Label1" dlg:tab-index="4" dlg:left="159" dlg:top="73" dlg:width="24" dlg:height="26" dlg:value="7"/>
+ </dlg:bulletinboard>
+</dlg:window>

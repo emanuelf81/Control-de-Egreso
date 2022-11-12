@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:style-id="5" dlg:id="Dialog5" dlg:left="192" dlg:top="41" dlg:width="262" dlg:height="119" dlg:closeable="true" dlg:moveable="true" dlg:title="Filtro de Informe">
+ <dlg:styles>
+  <dlg:style dlg:style-id="0" dlg:font-height="11"/>
+  <dlg:style dlg:style-id="1" dlg:font-height="10"/>
+  <dlg:style dlg:style-id="2" dlg:background-color="0xeeeeee" dlg:font-height="10"/>
+  <dlg:style dlg:style-id="3" dlg:background-color="0xeeeeee" dlg:font-height="12"/>
+  <dlg:style dlg:style-id="4" dlg:background-color="0xffffff" dlg:font-height="11"/>
+  <dlg:style dlg:style-id="5" dlg:background-color="0xeeeeee"/>
+ </dlg:styles>
+ <dlg:bulletinboard>
+  <dlg:combobox dlg:style-id="0" dlg:id="ComboBox2" dlg:tab-index="1" dlg:left="51" dlg:top="35" dlg:width="70" dlg:height="14" dlg:spin="true" dlg:maxlength="50"/>
+  <dlg:datefield dlg:style-id="0" dlg:id="DateField1" dlg:tab-index="2" dlg:left="51" dlg:top="61" dlg:width="42" dlg:height="14" dlg:date-format="system_short_YYYY"/>
+  <dlg:button dlg:style-id="1" dlg:id="CommandButton1" dlg:tab-index="3" dlg:left="60" dlg:top="93" dlg:width="55" dlg:height="15" dlg:default="true" dlg:value="Filtrar" dlg:button-type="ok"/>
+  <dlg:button dlg:style-id="1" dlg:id="CommandButton2" dlg:tab-index="8" dlg:left="150" dlg:top="93" dlg:width="55" dlg:height="15" dlg:value="Cancelar" dlg:button-type="cancel"/>
+  <dlg:titledbox dlg:style-id="1" dlg:id="FrameControl3" dlg:tab-index="13" dlg:left="131" dlg:top="3" dlg:width="58" dlg:height="77">
+   <dlg:title dlg:value="Prioridad"/>
+  </dlg:titledbox>
+  <dlg:titledbox dlg:style-id="1" dlg:id="FrameControl4" dlg:tab-index="14" dlg:left="194" dlg:top="3" dlg:width="58" dlg:height="77">
+   <dlg:title dlg:value="Estado"/>
+  </dlg:titledbox>
+  <dlg:text dlg:style-id="2" dlg:id="Label5" dlg:tab-index="15" dlg:left="2" dlg:top="12" dlg:width="45" dlg:height="10" dlg:value="Zona:" dlg:align="right"/>
+  <dlg:text dlg:style-id="2" dlg:id="Label6" dlg:tab-index="16" dlg:left="2" dlg:top="37" dlg:width="45" dlg:height="10" dlg:value="Asignado:" dlg:align="right"/>
+  <dlg:text dlg:style-id="2" dlg:id="Label7" dlg:tab-index="17" dlg:left="2" dlg:top="63" dlg:width="45" dlg:height="10" dlg:value="A partir del:" dlg:align="right"/>
+  <dlg:radiogroup>
+   <dlg:radio dlg:style-id="3" dlg:id="OptionButton8" dlg:tab-index="12" dlg:left="198" dlg:top="61" dlg:width="52" dlg:height="10" dlg:value="Finalizado"/>
+   <dlg:radio dlg:style-id="3" dlg:id="OptionButton7" dlg:tab-index="11" dlg:left="198" dlg:top="46" dlg:width="52" dlg:height="10" dlg:value="En Curso" dlg:checked="true"/>
+   <dlg:radio dlg:style-id="3" dlg:id="OptionButton6" dlg:tab-index="10" dlg:left="198" dlg:top="31" dlg:width="52" dlg:height="10" dlg:value="Pendiente"/>
+   <dlg:radio dlg:style-id="3" dlg:id="OptionButton5" dlg:tab-index="9" dlg:left="198" dlg:top="17" dlg:width="52" dlg:height="10" dlg:value="Todos"/>
+   <dlg:radio dlg:style-id="3" dlg:id="OptionButton4" dlg:tab-index="7" dlg:left="139" dlg:top="62" dlg:width="50" dlg:height="10" dlg:value="Baja"/>
+   <dlg:radio dlg:style-id="3" dlg:id="OptionButton3" dlg:tab-index="6" dlg:left="139" dlg:top="47" dlg:width="50" dlg:height="10" dlg:value="Media"/>
+   <dlg:radio dlg:style-id="3" dlg:id="OptionButton2" dlg:tab-index="5" dlg:left="139" dlg:top="33" dlg:width="50" dlg:height="10" dlg:value="Alta"/>
+   <dlg:radio dlg:style-id="3" dlg:id="OptionButton1" dlg:tab-index="4" dlg:left="139" dlg:top="18" dlg:width="50" dlg:height="10" dlg:value="Todos" dlg:checked="true"/>
+  </dlg:radiogroup>
+  <dlg:combobox dlg:style-id="4" dlg:id="ComboBox1" dlg:tab-index="0" dlg:left="50" dlg:top="11" dlg:width="42" dlg:height="14" dlg:spin="true">
+   <dlg:menupopup>
+    <dlg:menuitem dlg:value="CBAN"/>
+    <dlg:menuitem dlg:value="CBAC"/>
+    <dlg:menuitem dlg:value="CBAS"/>
+    <dlg:menuitem dlg:value="INT"/>
+    <dlg:menuitem dlg:value="TODOS"/>
+   </dlg:menupopup>
+  </dlg:combobox>
+ </dlg:bulletinboard>
+</dlg:window>
